@@ -19,7 +19,7 @@ const format = (date, pattern) => {
         ss: pad(date.getSeconds(), 2),
         d: date.getDate(),
         MONTH: monthsArray[date.getMonth()],
-        DAY: daysArray[date.getDay()]
+        DAY: daysArray[date.getDay() - 1]
     };
     
     return pattern.replace(/([a-z]+)/ig, (m, key) => {
