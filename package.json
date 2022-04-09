@@ -1,0 +1,27 @@
+{
+  "name": "@antoinelrk/date-format",
+  "version": "1.0.0",
+  "description": "Javascript module for simply format dates",
+  "main": "src/DateFormat.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./tests/TestDateFormat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoinelrk/date-format.git"
+  },
+  "keywords": ["date", "format"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Antoine LRK",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/antoinelrk/date-format/issues"
+  },
+  "homepage": "https://github.com/antoinelrk/date-format#readme"
+}
